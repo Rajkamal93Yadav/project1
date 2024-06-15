@@ -1,0 +1,88 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin: 0 15px;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 10px;
+  display: block;
+  transition: color 0.3s;
+}
+
+.nav-item a:hover {
+  color: #ff6347;
+}
+
+.navbar.scrolled {
+  background-color: #555;
+}
+
+section {
+  padding: 100px;
+  height: 100vh;
+}
+
+#home {
+  background-color: #f4f4f4;
+  background-image: url(image/home.avif);
+  background-attachment:fixed;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#about {
+  background-color: #e2e2e2;
+  background-image: url(image/about.avif);
+  background-attachment: fixed;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#services {
+  background-color: #d0d0d0;
+  background-image: url(image/service.avif);
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+
+}
+
+#contact {
+  background-color: #bfbfbf;
+  background-image: url(image/content.avif);
+  background-attachment: fixed;
+  font-size: large;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
